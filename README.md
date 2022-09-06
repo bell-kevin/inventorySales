@@ -76,7 +76,7 @@ from [the Software Freedom Conservancy](https://sfconservancy.org) to understand
 a good place to host FOSS projects.
 
 If you are a contributor who personally has already quit using GitHub, please
-[email me](**bellKevin@pm.me**) for how to send us contributions without
+email me at **bellKevin@pm.me** for how to send us contributions without
 using GitHub directly.
 
 Any use of this project's code by GitHub Copilot, past or present, is done
