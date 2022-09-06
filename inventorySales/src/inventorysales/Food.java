@@ -19,4 +19,15 @@ public class Food extends Inventory {
         double taxAmount = unitCost * FOOD_TAX;
         return taxAmount;
     } // end taxCalc method
+
+    @Override
+    public double calcCost(int qty) {
+        if (itemQuantityOnHand < qty){
+            double subTotal = qty * unitCost;
+            subTotal + calcTax();
+        } else{
+            System.out.println("too much. enter a smaller amount");
+        }// end if/else condition
+        return 0;
+    } // end calcCost method
 } // end Food class
