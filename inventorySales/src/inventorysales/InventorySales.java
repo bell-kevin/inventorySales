@@ -23,8 +23,8 @@ public class InventorySales {
             System.out.println(inventoryStock.display());
             System.out.print("How many do you want to purchase? ");
             Scanner computerKeyboardInput = new Scanner(System.in);
-            int qty = computerKeyboardInput.nextInt();
-            //i can't figure out how to do the next step
+            int soda = computerKeyboardInput.nextInt(); // is this correct?
+            // i can't figure out the next step
         } // end for-each loop
     } // end main method
 } // end InventorySales class
