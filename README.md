@@ -62,9 +62,15 @@ OtherItem #9876, "metal straw", quantity on hand = 30, unit cost = $1.50
 
 OtherItem #8765, "sunglasses", quantity on hand = 30, unit cost = $4.75
 
-Run the project once to match the sample session. Change all of the details of the 4 inventory items, and run the project again, making sure all sales are valid. Take screenshots of both runs. 
+Run the project once to match the sample session. Change all of the details of the 4 inventory items, and run the project again, making sure all sales are valid. Take screenshots of both runs.
+
+Good Output
 
  ![good output](https://github.com/bell-kevin/inventorySales/blob/main/goodOutput.PNG)
+ 
+ More Good Output
+ 
+ ![More Good Output]()
 
 Submission: the specified screenshots and the root folder for the project
 
