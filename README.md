@@ -10,6 +10,10 @@ Create an interface in your project. Click on File, then New File, select Java I
 
 Create an Inventory class which is the super class for the 2 types of inventory. This class has instance variables for the inventory ID (integer), name (string), quantity on hand (integer), and unit cost (double). The constructor for the class includes all 4 instance variables as parameters. Write a method to display the item, as seen in the images below, making sure to display money values correctly.
 
+Bad Output
+
+![bad output](https://github.com/bell-kevin/inventorySales/blob/main/close%20but%20still%20wrong.PNG)
+
 There will be 2 other classes, sub classes to the Inventory class. One is Food, one is OtherItem. The only difference in these classes is they use different tax rates. You might question why there are 3 classes to describe inventory when the only difference is that tax rate. You could have a field or fields in Inventory that specify if the item is Food or Other, which would work in this very simple example. But in more realistic projects, food items would have a lot of instance variables that don't describe non-food items, and non-food items would have a lot of instance variables not appropriate for food items. To focus on abstract methods and interfaces, we are leaving out all of those specific variables and including only the 4 that are common to both sub classes. 
 
 Create a Food class that inherits from the Inventory class. It has no additional instance variables. Its constructor needs 4 parameters, and all of them will be sent to the super class constructor. 
@@ -60,11 +64,9 @@ OtherItem #8765, "sunglasses", quantity on hand = 30, unit cost = $4.75
 
 Run the project once to match the sample session. Change all of the details of the 4 inventory items, and run the project again, making sure all sales are valid. Take screenshots of both runs. 
 
- 
+ ![good output](https://github.com/bell-kevin/inventorySales/blob/main/goodOutput.PNG)
 
 Submission: the specified screenshots and the root folder for the project
-
- 
 
 Pay careful attention to the rubric for this assignment.
 
