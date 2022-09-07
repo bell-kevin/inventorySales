@@ -70,7 +70,7 @@ Good Output
  
  More Good Output
  
- ![More Good Output]()
+ ![More Good Output](https://github.com/bell-kevin/inventorySales/blob/main/more%20good%20output.PNG)
 
 Submission: the specified screenshots and the root folder for the project
 
