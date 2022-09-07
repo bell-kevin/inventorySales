@@ -22,10 +22,11 @@ public class Food extends Inventory {
 
     @Override
     public double calcCost(int qty) {
-        if (itemQuantityOnHand < qty){
+        if (itemQuantityOnHand >= qty) {
             double subTotal = qty * unitCost;
-            subTotal + calcTax();
-        } else{
+            double tax = taxCalc(subTotal);
+            double total = tax + subTotal;
+        } else {
             System.out.println("too much. enter a smaller amount");
         }// end if/else condition
         return 0;
