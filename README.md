@@ -47,9 +47,13 @@ Here is the sample session. The first sale for each type of inventory is more th
 For this sample, the anonymous objects are:
 
 Food item #1234, "lg soda", quantity on hand = 50, unit cost = $2.50
+
 Food item #2345, "donuts", quantity on hand = 30, unit cost = $5.00
+
 OtherItem #9876, "metal straw", quantity on hand = 30, unit cost = $1.50
+
 OtherItem #8765, "sunglasses", quantity on hand = 30, unit cost = $4.75
+
 Run the project once to match the sample session. Change all of the details of the 4 inventory items, and run the project again, making sure all sales are valid. Take screenshots of both runs. 
 
  
