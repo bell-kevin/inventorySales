@@ -40,13 +40,13 @@ Now there is a method named calcCost in the Inventory class that is abstract. Th
 
 At this point, you should have:
 
-an interface for the tax rates, which includes a method to calculate tax
+-an interface for the tax rates, which includes a method to calculate tax
 
-a class for inventory, which has 4 instance variables, a 4-parameter constructor, a display method, and an abstract method for calculating the cost of a sale, which requires that the whole class is abstract, and it implements the Tax interface
+-a class for inventory, which has 4 instance variables, a 4-parameter constructor, a display method, and an abstract method for calculating the cost of a sale, which requires that the whole class is abstract, and it implements the Tax interface
 
-a sub class for Food objects that inherits from the Inventory class, which has code for the method to calculate tax (required from the interface) and for the method to calculate the cost of a sale (required to complete the abstract method in the Inventory class)
+-a sub class for Food objects that inherits from the Inventory class, which has code for the method to calculate tax (required from the interface) and for the method to calculate the cost of a sale (required to complete the abstract method in the Inventory class)
 
-a sub class for OtherItem objects that is basically identical to the Food class, except it uses a different tax rate in the method to calculate the tax
+-a sub class for OtherItem objects that is basically identical to the Food class, except it uses a different tax rate in the method to calculate the tax
 
 Now work on the main method. Create an Array List of Inventory objects. Add anonymous Food objects and OtherItem objects to it, 2 of each type. Using a For-Each loop, print out the item, ask the user how many they want to purchase, get the price for that sale, and print out the item to see that the quantity on hand has changed.
 
